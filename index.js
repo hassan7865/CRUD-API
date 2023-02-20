@@ -16,7 +16,7 @@ const connect = ()=>{
     })
 }
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://cosmic-cuchufli-0053b7.netlify.app",
     methods:["POST,GET,PUT,DELETE"],
     credentials:true,
 }))
